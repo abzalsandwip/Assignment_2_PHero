@@ -119,7 +119,7 @@ footer{
     .grid-container-2{
         grid-template-columns: repeat(1, 1fr)
     }
-
+   
     
 }
 /* for tabloet */
@@ -131,6 +131,7 @@ footer{
     .grid-container-2{
         grid-template-columns: repeat(1, 1fr)
     }
+    
 }
 
 
