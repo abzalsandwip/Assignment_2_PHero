@@ -1,0 +1,132 @@
+body{
+    margin: 20px;
+    font-family: 'Moon Dance', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.gird-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid-cell{
+    border: 1px;
+    margin: 100px 50px;
+    padding: 5px;
+}
+.paragraph{
+    text-align: justify;
+    font-size: 20px;
+}
+.anchor-button{
+    text-decoration: none;
+    background-image:linear-gradient(#ff589b -19.22%,#ff136f 118.87%);
+    padding: 10px 20px;
+    border-radius: 50px;
+    color:white;
+    font-weight: 700;
+}
+.fas fa-arrow-right{
+    font-size: larger;    
+}
+.section-title{
+    text-align: center;
+    font-size: 2em;
+}
+.grid-container-2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px 30px;
+    padding: 30px 30px;
+    background-color: #f1eeee;
+    }
+.product{
+    background-color:white;
+    
+}
+.product .product-pic img{
+    width: 329px;
+    height: 476px;
+     
+}
+.img {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+}
+.product-info{
+    margin: 5px 5px 5px 50px;
+}
+.product-pic {
+    margin: 50px 50px;
+}
+.sec-2-botom{
+    text-align: right;
+    color: rgb(240, 27, 27);
+    font-size: 2em;
+}
+
+#sec-3{
+    width: 80%;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.fa-star.field{
+    color: #ffc014;
+}
+.fa-star.empty{
+    color: #aeaeae;
+}
+.product-rate .product-title{
+    font-size: 2em;
+}
+.avility{
+    color: #aeaeae;
+}
+footer{
+    background-color:#030325;
+    margin: 0;
+    padding: 15px;
+}
+.footer-title{
+    font-weight: 700;
+    
+}
+.footer-text{
+    text-align: center;
+    color: white;
+    
+}
+.social{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    word-spacing: 20px;
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+</style>
